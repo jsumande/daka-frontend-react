@@ -4,7 +4,7 @@ import Invoice_Generator from "../assets/images/Invoice_Tool.webp";
 import Free_Product from "../assets/images/Free_Product.webp";
 import Jobber_Group from "../assets/images/Jobber_Group.jpg";
 import Home_Jobber_App from "../assets/images/home_app.jpg";
-import Provide_an_easy from "../assets/images/Provide_an_easy.jpg";
+import Provide_an_easy from "../assets/images/Provide_an_easys.jpg";
 
 import BannerImage from "../assets/images/img_homeHero_vA_L.webp";
 
