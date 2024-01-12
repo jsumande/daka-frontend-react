@@ -1,9 +1,10 @@
+import CenteritemsRow from "../Container/CenteritemsRow"
 
 const auth = () => {
   return (
 
     <div className='w-full bg-[#012939] py-3 flex flex-col items-center justify-center'>
-        <div className='flex flex-row justify-between w-7/12'>
+        <CenteritemsRow>
         
         <h1 className='text-white underline hover:no-underline cursor-pointer hover:text-gray-400'>Limited time offer: save up to 30% <span className='text-[#c1ff72] font-bold'>SAVE NOW</span></h1>
         
@@ -13,7 +14,7 @@ const auth = () => {
         </div>
 
 
-        </div>
+        </CenteritemsRow>
     </div>
 
   )

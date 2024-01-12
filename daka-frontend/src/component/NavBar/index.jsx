@@ -5,6 +5,8 @@ import IndustriesNavbar from "./industries/index";
 import ResourcesNavbar from "./resources";
 import AnchorTag from "./component/anchor_tag";
 
+import CenteritemsRow from "../Container/CenteritemsRow";
+
 const NavBar = () => {
 
   const [isHovered, setIsHovered] = useState(false);
@@ -24,8 +26,8 @@ const NavBar = () => {
     return (
       <Fragment>
 
-      <div className='w-full shadow-md bg-gray-50 py-5 flex flex-col relative items-center justify-center z-10'>
-          <div className='flex flex-row justify-between w-7/12'>
+      <div className='w-full shadow-md bg-gray-50 py-5 flex flex-col relative items-center justify-center z-20'>
+          <CenteritemsRow>
           
           <div className='flex flex-row justify-between items-center'>
             
@@ -48,11 +50,11 @@ const NavBar = () => {
               <h1 className='text-black bg-[#c1ff72] px-4 py-1 font-bold cursor-pointer hover:text-gray-400' >Dev</h1>
           </div>
   
-          </div>
+          </CenteritemsRow>
 
       </div>
       
-      <div className={`${isHovered ? 'flex' : 'hidden'}  ease-in-out delay-1000 duration-1000 h-full w-full flex-col items-center absolute z-0`}>
+      <div className={`${isHovered ? 'flex' : 'hidden'}  ease-in-out delay-1000 duration-1000 h-full w-full flex-col items-center absolute z-10`}>
         <div onMouseEnter={ handleMouseLeave } className="h-full w-full absolute top-1 bg-black opacity-50 z-0"></div>
 
         <div className='w-full bg-white flex flex-col items-center justify-center z-10'>

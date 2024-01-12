@@ -10,3 +10,7 @@ body {
     background-color: #f3f3f3;
     /* overflow-y: hidden; */
 }
+
+#main_page_salary_guides {
+    background-image: url("../assets/images/Salary_Guides_Main_Page.jpg");
+} 

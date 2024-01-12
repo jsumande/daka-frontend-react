@@ -3,6 +3,7 @@ import { Fragment } from "react"
 import { IoLogoFacebook , IoLogoTwitter , IoLogoInstagram , IoLogoYoutube , IoLogoLinkedin  } from "react-icons/io";
 
 import Footer_Anchor_Tag from "./component/anchor_tag"
+import CenterItems from "../Container/CenterItems";
 
 import { industries_tags_set_one , industries_tags_set_two , features_tags , resources_tags , company_tags } from "../../contants"
 
@@ -11,7 +12,7 @@ const Footer = () => {
   return (
     <Fragment>
       <div className="w-full bg-[#4d6974] py-10 flex flex-col items-center justify-center z-0">
-        <div className="flex flex-col w-7/12">
+        <CenterItems>
 
           <h1 className='text-white pr-5 font-bold text-4xl' >Jobber</h1>
 
@@ -102,7 +103,7 @@ const Footer = () => {
               </div>
 
               <div className="flex flex-col gap-2">
-                <img src="https://getjobber.com/wp-content/themes/jobber-bold/assets/images/appstore.svg" />
+                <img style={{ width : "113px" , height : "38px"}} src="https://getjobber.com/wp-content/themes/jobber-bold/assets/images/appstore.svg" />
                 <img src="https://getjobber.com/wp-content/themes/jobber-bold/assets/images/googleplay.svg" />
               </div>
 
@@ -122,7 +123,7 @@ const Footer = () => {
             <h1 className="text-md text-white cursor-pointer underline hover:no-underline hover:text-gray-300" >Sitemap</h1>
           </div>
 
-        </div>
+        </CenterItems>
       </div>
     </Fragment>
   )

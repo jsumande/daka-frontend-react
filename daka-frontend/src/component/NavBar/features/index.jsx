@@ -1,13 +1,14 @@
 import { Fragment} from 'react'
 
 import AnchorTagContainer from './component/feature_container'
+import GriditemsRow from '../../Container/GridItemsRow'
 
 const FeatureNavbar = () => {
   return (
     <Fragment>
 
         <div className='w-full shadow-md bg-gray-50 py-5 flex flex-col items-center justify-center'>
-          <div className='grid grid-cols-3 gap-4 w-7/12'>
+          <GriditemsRow>
           
         
             <div className='flex flex-col justify-start items-start'>
@@ -53,7 +54,7 @@ const FeatureNavbar = () => {
             </div>
 
 
-          </div>
+          </GriditemsRow>
 
         </div>
 

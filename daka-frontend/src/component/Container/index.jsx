@@ -15,7 +15,7 @@ function index () {
       <NavBar/>
 
       {/* Page Content Here */}
-      <div className='container mx-auto my-96'>
+      <div>
         <Outlet/>
       </div>
 
