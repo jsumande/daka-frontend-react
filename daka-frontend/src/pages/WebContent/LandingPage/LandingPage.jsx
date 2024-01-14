@@ -26,6 +26,7 @@ function LandingPage() {
       <span className="my-5"/>
       <Free_Resources/>
       <span className="my-5"/>
+      
     </div>
   )
 }

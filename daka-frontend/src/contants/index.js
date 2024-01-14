@@ -1,7 +1,7 @@
 
 export const pageRoutes = {
     LANDINGPAGE : '/',
-    ABOUTUS : 'about-us',
+    WHYJOBBER : 'why-jobber',
 }
 
 export const  industries_tags_set_one = [

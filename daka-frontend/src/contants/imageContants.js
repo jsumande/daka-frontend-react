@@ -1,19 +1,45 @@
 
+/* Landing Page Image Start  */
+
 import Salary_Guides from "../assets/images/Salary_Guides_Main_Page.jpg";
 import Invoice_Generator from "../assets/images/Invoice_Tool.webp";
 import Free_Product from "../assets/images/Free_Product.webp";
 import Jobber_Group from "../assets/images/Jobber_Group.jpg";
 import Home_Jobber_App from "../assets/images/home_app.jpg";
 import Provide_an_easy from "../assets/images/Provide_an_easys.jpg";
-
 import BannerImage from "../assets/images/img_homeHero_vA_L.webp";
-
 import service_one from "../assets/images/services/services_one.webp";
 import service_two from "../assets/images/services/services_two.webp";
 import service_three from "../assets/images/services/services_three.webp";
 import service_four from "../assets/images/services/services_four.webp";
 import service_five from "../assets/images/services/services_five.webp";
 import service_six from "../assets/images/services/services_six.webp";
+
+/* Landing Page Image End  */
+
+/* Why Jobber Image Start  */
+
+import WhyJobberSearchImage from "../assets/images/why-jobber/Search.webp";
+import WhyJobberFullClient from "../assets/images/why-jobber/FullClient.webp";
+import WhyJobberJobberApp from "../assets/images/why-jobber/JobberApp.webp";
+import WhyJobberJobTracking from "../assets/images/why-jobber/JobTracking.webp";
+import WhyJobberDashboardFeed from "../assets/images/why-jobber/Dashboard_Feed.webp";
+import WhyJobberProjected from "../assets/images/why-jobber/Projected.webp";
+import WhyJobberGregWorking from "../assets/images/why-jobber/GregWorker.webp";
+import WhyJobberGetPaidFaster from "../assets/images/why-jobber/Get_Paid_Faster.webp";
+import WhyJobberMobileApp from "../assets/images/why-jobber/MobileApp.jpg";
+import WhyJobberOneClick from "../assets/images/why-jobber/One-Click.webp";
+import WhyJobberBatchInvoicing from "../assets/images/why-jobber/Batch_Invoicing.webp";
+import WhyJobberPressureWashing from "../assets/images/why-jobber/Pressure_Washing.webp";
+import WhyJobberSchedulingAndDispatching from "../assets/images/why-jobber/Scheduling_and_Dispatching.png";
+import WhyJobberOneClickRoute from "../assets/images/why-jobber/One_Click_Route.png";
+import WhyJobberVisitMobileApp from "../assets/images/why-jobber/VisitMobileApp.webp";
+import WhyJobberAppointmentReminders from "../assets/images/why-jobber/AppointmentReminders.webp";
+import WhyJobberBookingServices from "../assets/images/why-jobber/BookingServices.webp";
+import WhyJobberNotification from "../assets/images/why-jobber/Notification.webp";
+
+
+/* Why Jobber Image End  */
 
 export const LandingPageDefaultImage = {
     BANNERIMAGE : BannerImage,
@@ -31,4 +57,33 @@ export const LandingPageDefaultImage = {
         { img : service_five , height : '70px' , width :  '75px'},
         { img : service_six , height : '70px' , width :  '123px'},
     ],
+}
+
+export const WhyJobberDefaultImage = {
+
+    WJJOBBERAPP : WhyJobberJobberApp,
+    WJFULLCLIENT : WhyJobberFullClient,
+    WJSEARCHIMAGE : WhyJobberSearchImage,
+
+    WJJOBTRACKING : WhyJobberJobTracking ,
+    WJDASHBOARDFEED : WhyJobberDashboardFeed ,
+    WJPROJECTED : WhyJobberProjected ,
+
+    WJGREGWORKING : WhyJobberGregWorking,
+    WJGETPAIDFASTER : WhyJobberGetPaidFaster,
+
+    WJMOBILEAPP : WhyJobberMobileApp , 
+    WJONECLICK : WhyJobberOneClick, 
+    WJBATCHINVOICING : WhyJobberBatchInvoicing , 
+    WJPRESSUREWASHING : WhyJobberPressureWashing ,
+
+    WJSCHEDULINGANDDISPATCHING : WhyJobberSchedulingAndDispatching,
+    WJONECLICKROUTE : WhyJobberOneClickRoute,
+
+    WJVISITMOBILEAPP : WhyJobberVisitMobileApp , 
+    WJAPPOINTMENTREMINDERS : WhyJobberAppointmentReminders,
+
+    WJBOOKINGSERVICES : WhyJobberBookingServices , 
+    WJNOTIFICATION : WhyJobberNotification ,
+
 }
