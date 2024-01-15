@@ -24,6 +24,15 @@ body {
     background-repeat: no-repeat; 
 }
 
+#BannerWhyJobber {
+    position: relative;
+    width: 100%;
+    background-image: url("../assets/images/why-jobber/WhyJobberBanner.webp");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
 #GredTreeWorkingOverlay {
     position: absolute;
     z-index: 1;

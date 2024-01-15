@@ -60,39 +60,39 @@ const BookCustomer = () => {
 
     <div className="flex flex-col ml-10 gap-2">
 
-        <h1 className="text-5xl font-extrabold text-[#012939] mb-2">Get paid faster</h1>
+        <h1 className="text-5xl font-extrabold text-[#012939] mb-2">Win more jobs</h1>
 
         <div className="flex flex-col gap-0.5">
-            <p className="text-[#012939] font-semibold text-lg">You’ll deliver 5-star service every step of the way, and your customers</p>
-            <p className="text-[#012939] font-semibold text-lg">will be happy to pay you for it. Instantly in-person, online within 24 hours,</p>
-            <p className="text-[#012939] font-semibold text-lg">or automatically every month.</p>
+            <p className="text-[#012939] font-semibold text-lg">Get back to potential customers faster than anyone else can,</p>
+            <p className="text-[#012939] font-semibold text-lg">and get more business. Within an hour of an online request</p>
+            <p className="text-[#012939] font-semibold text-lg">coming in, send back a professional quote that they can</p>
+            <p className="text-[#012939] font-semibold text-lg">approve online—immediately. No one else is doing that.</p>
         </div>
 
     </div>
 
     <div className="flex flex-col ml-10 gap-2">
-        <Header text={"Card reader"} />
-        <p className="text-[#012939] text-md">Take payments on the spot by swiping credit and debit cards in person. (US only)</p>
+        <Header text={"Send quotes by text message"} />
+        <p className="text-[#012939] text-md">Text messages close twice as many quotes as emails, in half the time.</p>
     </div>
     
     <div className="flex flex-col ml-10 gap-2">
 
-        <Header text={"Online payments"} />
+        <Header text={"Professional quotes"} />
 
         <div className="flex flex-col gap-0.5">
-            <p className="text-[#012939] text-md">Get paid 10x faster than checks on average by offering online invoice payments.</p>
-            <p className="text-[#012939] text-md">Payments are deposited into your bank account in seconds, 24/7—even on weekends</p>
-            <p className="text-[#012939] text-md">and holidays.</p>
+            <p className="text-[#012939] text-md">Create branded quotes that customers can review and approve online,</p>
+            <p className="text-[#012939] text-md">heard back on, and close deals you might have otherwise missed.</p>
         </div>
 
     </div>    
 
     <div className="flex flex-col ml-10 gap-2">
 
-        <Header text={"Automatic payments"} />
+        <Header text={"Automatic follow-ups"} />
 
         <div className="flex flex-col gap-0.5">
-            <p className="text-[#012939] text-md">Make recurring revenue for recurring work by automatically generating an invoice when</p>
+            <p className="text-[#012939] text-md">Send automated follow-up email or text messages for quotes you haven’t</p>
             <p className="text-[#012939] text-md">a job is complete, and charging your client’s credit card saved on file.</p>
         </div>
 
@@ -108,7 +108,7 @@ const BookCustomer = () => {
 
 </div>
 
-<img src={WhyJobberDefaultImage.WJGETPAIDFASTER} style={{ maxHeight : '711px' , maxWidth : '722px' }} />
+<img src={WhyJobberDefaultImage.WJWINRATE} style={{ maxHeight : '711px' , maxWidth : '722px' }} />
 
 </div>
 

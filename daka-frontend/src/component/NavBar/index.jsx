@@ -31,11 +31,11 @@ const NavBar = () => {
           
           <div className='flex flex-row justify-between items-center'>
             
-            <h1 className='text-black pr-5 font-bold cursor-pointer text-2xl' >Jobber</h1>
+            <a href="/" className='text-black pr-5 font-bold cursor-pointer text-2xl' >Jobber</a>
 
             <div className="flex flex-row gap-3 mt-2">
 
-                <AnchorTag text={"Why Jobber?"} handleMouseEnter = {handleMouseLeave } handleMouseLeave={ handleMouseLeave } />
+                <AnchorTag target_link={"why-jobber"} text={"Why Jobber?"} handleMouseEnter = {handleMouseLeave } handleMouseLeave={ handleMouseLeave } />
                 <AnchorTag text={"Features"} handleMouseEnter={ () => handleMouseEnter(1) } />
                 <AnchorTag text={"Industries"} handleMouseEnter={ () => handleMouseEnter(2) } />
                 <AnchorTag text={"Pricing"} handleMouseEnter = {handleMouseLeave } handleMouseLeave={ handleMouseLeave } />

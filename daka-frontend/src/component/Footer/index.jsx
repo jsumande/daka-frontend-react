@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="w-full bg-[#4d6974] py-10 flex flex-col items-center justify-center z-0">
         <CenterItems>
 
-          <h1 className='text-white pr-5 font-bold text-4xl' >Jobber</h1>
+          <a href="/" className='text-white pr-5 font-bold text-4xl' >Jobber</a>
 
           <div className="grid grid-cols-3 gap-4 my-10">
 

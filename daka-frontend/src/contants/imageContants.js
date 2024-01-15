@@ -37,6 +37,9 @@ import WhyJobberVisitMobileApp from "../assets/images/why-jobber/VisitMobileApp.
 import WhyJobberAppointmentReminders from "../assets/images/why-jobber/AppointmentReminders.webp";
 import WhyJobberBookingServices from "../assets/images/why-jobber/BookingServices.webp";
 import WhyJobberNotification from "../assets/images/why-jobber/Notification.webp";
+import WhyJobberWinRate from "../assets/images/why-jobber/Win_Rate_Jobber.webp";
+import WhyJobberCustomerExpect from "../assets/images/why-jobber/CustomerExpect.webp";
+import WhyJobberWhyJobberBanner from "../assets/images/why-jobber/WhyJobberBanner.webp";
 
 
 /* Why Jobber Image End  */
@@ -85,5 +88,7 @@ export const WhyJobberDefaultImage = {
 
     WJBOOKINGSERVICES : WhyJobberBookingServices , 
     WJNOTIFICATION : WhyJobberNotification ,
-
+    WJWINRATE : WhyJobberWinRate , 
+    WJCUSTOMEREXPECT : WhyJobberCustomerExpect ,
+    WJWHYJOBBERBANNER : WhyJobberWhyJobberBanner ,
 }
