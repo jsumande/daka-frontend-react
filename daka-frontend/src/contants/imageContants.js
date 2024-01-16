@@ -44,6 +44,18 @@ import WhyJobberWhyJobberBanner from "../assets/images/why-jobber/WhyJobberBanne
 
 /* Why Jobber Image End  */
 
+/* Auth Image Start  */
+
+import AuthJobberFaster from "../assets/images/auth/JobberFaster.jpg";
+import AuthSignUpPageHero from "../assets/images/auth/Signup_Page_Hero.webp";
+
+/* Auth Image End  */
+
+export const AuthDefaultImage = {
+   LOGINJOBBERFAST : AuthJobberFaster,
+   SIGNUPPAGEHERO : AuthSignUpPageHero,
+}
+
 export const LandingPageDefaultImage = {
     BANNERIMAGE : BannerImage,
     SALARY_GUIDES : Salary_Guides,

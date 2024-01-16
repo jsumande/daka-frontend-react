@@ -47,7 +47,7 @@ const NavBar = () => {
           
           <div className='flex flex-row justify-between items-center'>
               <h1 className='text-black pr-5 font-bold cursor-pointer hover:text-gray-400' >1-888-721-1115</h1>
-              <h1 className='text-black bg-[#c1ff72] px-4 py-1 font-bold cursor-pointer hover:text-gray-400' >Dev</h1>
+              <a href="auth/registration" className='text-black bg-[#c1ff72] px-4 py-1 font-bold cursor-pointer hover:text-gray-400' >Start Free Trial</a>
           </div>
   
           </CenteritemsRow>

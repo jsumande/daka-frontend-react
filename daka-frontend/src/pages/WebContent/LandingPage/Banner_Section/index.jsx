@@ -1,4 +1,4 @@
-import { LandingPageDefaultImage } from "../../../../contants/imageContants"
+import { LandingPageDefaultImage , } from "../../../../contants/imageContants"
 
 import CenterItems from "../../../../component/Container/CenterItems"
 

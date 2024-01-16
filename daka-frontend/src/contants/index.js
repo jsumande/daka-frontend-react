@@ -1,7 +1,12 @@
 
 export const pageRoutes = {
+    
+    LOGINPAGE : 'login',
+    REGISTRATIONPAGE : 'registration',
+    
     LANDINGPAGE : '/',
     WHYJOBBER : 'why-jobber',
+
 }
 
 export const  industries_tags_set_one = [
