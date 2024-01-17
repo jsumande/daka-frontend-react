@@ -7,6 +7,8 @@ export const pageRoutes = {
     LANDINGPAGE : '/',
     WHYJOBBER : 'why-jobber',
 
+    FEATURE_CLIENT_MANAGER : 'client-manager',
+
 }
 
 export const  industries_tags_set_one = [

@@ -51,6 +51,37 @@ import AuthSignUpPageHero from "../assets/images/auth/Signup_Page_Hero.webp";
 
 /* Auth Image End  */
 
+/* Features Image Start  */
+
+import FeaturesEasyTrialJobber from "../assets/images/features/TrialJobberEasy.svg";
+import FeaturesFreeResources from "../assets/images/features/LaptopToolFreeResource.webp";
+import FeaturesStayCompetitive from "../assets/images/features/StayCompetitive.webp";
+import FeaturesFreeAppointment from "../assets/images/features/FreeAppointment.webp";
+import FeaturesLawnSurgeon from "../assets/images/features/LawnSurgeon.webp";
+import FeaturesPatriotPoolSpaLogo from "../assets/images/features/PatriotPoolSpaLogo.webp";
+
+import FeaturesIntegrationQuickbooks from "../assets/images/features/Integration_Quickbooks.webp";
+import FeaturesIntegrationFleetSharp from "../assets/images/features/Integration_FleetSharp.webp";
+import FeaturesIntegrationZapier from "../assets/images/features/Integration_Zapier.webp";
+import FeaturesIntegrationMailchimp from "../assets/images/features/Integration_Mailchimp.webp";
+
+/* Features Image End  */
+
+export const FeaturesDefaultImage = {
+   FEATURESFREERESOURCES : FeaturesFreeResources ,
+   FEATURESSTAYCOMPETITIVE : FeaturesStayCompetitive ,
+   FEATURESFREEAPPOINTMENT : FeaturesFreeAppointment ,
+   FEATURESLAWNSURGEON : FeaturesLawnSurgeon ,
+   FEATURESPATRIOTPOOLSPALOGO : FeaturesPatriotPoolSpaLogo ,
+   FEATURESEASYTRIALJOBBER : FeaturesEasyTrialJobber ,
+
+   FEATURESQUICKBOOKS: FeaturesIntegrationQuickbooks ,
+   FEATURESFLEETSHARP: FeaturesIntegrationFleetSharp ,
+   FEATURESZAPIER: FeaturesIntegrationZapier ,
+   FEATURESMAILCHIMP: FeaturesIntegrationMailchimp ,
+   
+}
+
 export const AuthDefaultImage = {
    LOGINJOBBERFAST : AuthJobberFaster,
    SIGNUPPAGEHERO : AuthSignUpPageHero,

@@ -9,7 +9,14 @@ import WhyJobber from "../pages/WebContent/WhyJobber/WhyJobber";
 import LoginPage from "../pages/AuthPage/login";
 import RegistrationPage from "../pages/AuthPage/registration";
 
+/* Features Pages */
+
+import ClientManager from "../pages/WebContent/Features/Client_Manager";
+
 let routes = [
+
+
+
   {
     path: "auth",
     children: [
@@ -24,6 +31,14 @@ let routes = [
     children: [
       { path: pageRoutes.LANDINGPAGE, element: <LandingPage /> },
       { path: pageRoutes.WHYJOBBER, element: <WhyJobber /> },
+    ],
+  },
+
+  {
+    path: "features",
+    element: <Container />,
+    children: [
+      { path: pageRoutes.FEATURE_CLIENT_MANAGER, element: <ClientManager /> },
     ],
   },
 
