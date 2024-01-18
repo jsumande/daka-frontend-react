@@ -10,10 +10,14 @@ const index = () => {
     <CenterItems>
 
         <div className="bg-[#84ea00] rounded px-24 py-10 flex flex-col gap-4">
+            
 
-            <Header text={"Start using Jobber free"}/>
+            <div className="w-full max-[750px]:text-center">
+                <Header text={"Start using Jobber free"}/>
+            </div>
 
-            <div className="w-full flex flex-row gap-6">
+
+            <div className="w-full flex flex-row  max-[750px]:flex-col max-[750px]:items-center gap-6">
 
                 <div className="flex flex-row max-[1060px]:flex-col max-[1060px]:w-8/12 max-[1060px]:gap-2 ">
 

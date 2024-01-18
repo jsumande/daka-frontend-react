@@ -14,11 +14,11 @@ const ClientManager = () => {
 
       <div className="w-full flex flex-row h-[650px] relative">
         
-        <div className="w-full flex flex-col justify-between left-56 bottom-10 absolute w-6/12 h-full">
+        <div className="flex flex-col justify-between bottom-10 absolute w-6/12 h-full left-56">
            
                 <div className="flex flex-col justify-center items-center h-full w-8/12 gap-10">
                     
-                    <div className="w-full flex flex-col gap-3">
+                    <div className="w-full flex flex-col gap-3  ">
 
                         <h1 className="text-5xl font-extrabold text-white mb-2">A field service CRM that helps you wow customers at every stage</h1>
 

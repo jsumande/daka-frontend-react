@@ -17,15 +17,15 @@ const index = () => {
 
             <div className="w-full flex flex-col items-end bg-">
 
-                <div className="w-2/12 cursor-pointer border-2 flex items-center flex-col border-[#012939] rounded py-1 hover:bg-[#012939]">
-                <h1 className="text-black text-lg font-md hover:text-white">See All Resources</h1>
+                <div className="w-2/12 max-[1050px]:w-4/12 cursor-pointer border-2 flex items-center flex-col border-[#012939] rounded py-1 hover:bg-[#012939]">
+                    <h1 className="text-black text-lg font-md hover:text-white">See All Resources</h1>
                 </div>
             
             </div>
     
         </div>
 
-        <div className="w-full flex flex-row justify-between my-3 gap-3">
+        <div className="w-full grid grid-cols-2 max-[1050px]:grid-cols-1 my-3 gap-3">
 
         <div className="border-[3px] border-[#6cbf01] flex flex-col rounded gap-3 w-full h-[330px] relative top-1">
 
@@ -41,11 +41,11 @@ const index = () => {
 
             </div>
 
-            <img src={LandingPageDefaultImage.SALARY_GUIDES} className="absolute bottom-0" style={{ zIndex: 3 }}/>
+            <img src={LandingPageDefaultImage.SALARY_GUIDES} className="absolute bottom-0 h-full w-full" style={{ zIndex: 3 }}/>
         
         </div>
 
-        <div className="flex flex-row justify-between w-full gap-4">
+        <div className="flex flex-row max-[750px]:flex-col justify-between w-full gap-4">
 
             <div className="flex flex-col gap-2 w-full">
 
@@ -67,7 +67,7 @@ const index = () => {
 
             </div>
 
-            <div className="flex flex-col w-full">
+            <div className="flex flex-col max-[750px]:flex-row flex-wrap w-full">
 
                 <div className="flex flex-col px-5 py-6 rounded relative cursor-pointer">
 

@@ -16,7 +16,7 @@ const Footer = () => {
 
           <a href="/" className='text-white pr-5 font-bold text-4xl' >Jobber</a>
 
-          <div className="grid grid-cols-3 gap-4 my-10">
+          <div className="grid grid-cols-3 max-[1000px]:grid-cols-2 gap-4 my-10">
 
             <div className="flex flex-col gap-2">
               <h1 className="font-bold text-white text-lg" >Industries We Serve</h1>
@@ -73,7 +73,7 @@ const Footer = () => {
 
             </div>
 
-            <div className="flex flex-row gap-9">
+            <div className="flex flex-row max-[1000px]:flex-col gap-9">
 
               <div className="flex flex-col gap-2">
                 <h1 className="font-bold text-white text-lg" >Company</h1>
@@ -104,7 +104,7 @@ const Footer = () => {
 
               <div className="flex flex-col gap-2">
                 <img style={{ width : "113px" , height : "38px"}} src="https://getjobber.com/wp-content/themes/jobber-bold/assets/images/appstore.svg" />
-                <img src="https://getjobber.com/wp-content/themes/jobber-bold/assets/images/googleplay.svg" />
+                <img style={{ width : "113px" , height : "38px"}} src="https://getjobber.com/wp-content/themes/jobber-bold/assets/images/googleplay.svg" />
               </div>
 
             </div>
