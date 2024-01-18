@@ -8,6 +8,14 @@ export const pageRoutes = {
     WHYJOBBER : 'why-jobber',
 
     FEATURE_CLIENT_MANAGER : 'client-manager',
+    FEATURE_SCHEDULE_DISPATCHING : 'scheduling-dispatching',
+    FEATURE_INVOICE_SERVICE : 'invoicing-service',
+    FEATURE_MOBILE_APP : 'mobile-app',
+
+    FEATURE_ONLINE_BOOKING : 'online-booking',
+    FEATURE_CLIENT_HUB : 'client-hub',
+    FEATURE_CUSTOMER_COMMUNICATIONS : 'customer-communications',
+    FEATURE_JOB_FORMS : 'job-forms',
 
 }
 

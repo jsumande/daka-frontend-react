@@ -65,6 +65,9 @@ import FeaturesIntegrationFleetSharp from "../assets/images/features/Integration
 import FeaturesIntegrationZapier from "../assets/images/features/Integration_Zapier.webp";
 import FeaturesIntegrationMailchimp from "../assets/images/features/Integration_Mailchimp.webp";
 
+import FeaturesClientDetails from "../assets/images/features/ClientDetails.webp";
+import FeaturesClientManager from "../assets/images/features/ClientManager.webp";
+
 /* Features Image End  */
 
 export const FeaturesDefaultImage = {
@@ -79,7 +82,10 @@ export const FeaturesDefaultImage = {
    FEATURESFLEETSHARP: FeaturesIntegrationFleetSharp ,
    FEATURESZAPIER: FeaturesIntegrationZapier ,
    FEATURESMAILCHIMP: FeaturesIntegrationMailchimp ,
-   
+
+   FEATURESCLIENTDETAILS : FeaturesClientDetails,
+   FEATURESCLIENTMANAGER : FeaturesClientManager ,
+
 }
 
 export const AuthDefaultImage = {

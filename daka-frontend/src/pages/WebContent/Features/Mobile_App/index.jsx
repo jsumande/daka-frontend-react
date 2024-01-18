@@ -5,7 +5,7 @@ import TrialStartJobber from "../Common_Component/Trial_Start_Jobber/TrialStartJ
 import IntegrationsWork from "../Common_Component/Integrations_Work/IntegrationsWork"
 import ClientManagementJobber from "../Common_Component/Client_Management_Jobber/ClientManagementJobber"
 
-const SchedulingDispatching = () => {
+const MobileApp = () => {
   return (
     <div className="w-full bg-white flex flex-col items-center">
         
@@ -22,4 +22,4 @@ const SchedulingDispatching = () => {
   )
 }
 
-export default SchedulingDispatching
+export default MobileApp

@@ -15,13 +15,13 @@ const FeatureNavbar = () => {
             
                 <h1 className='text-gray-400 font-bold text-xs mb-5'>JOB MANAGEMENT</h1>
 
-                <AnchorTagContainer AnchorTitle={"Client Manager"} />
+                <AnchorTagContainer AnchorTitle={"Client Manager"} target_link={"/features/client-manager"} />
 
-                <AnchorTagContainer AnchorTitle={"Scheduling and dispatching"} />
+                <AnchorTagContainer AnchorTitle={"Scheduling and dispatching"} target_link={"/features/scheduling-dispatching"} />
 
-                <AnchorTagContainer AnchorTitle={"Invoice and follow-ups"} />
+                <AnchorTagContainer AnchorTitle={"Invoice and follow-ups"} target_link={"/features/invoicing-service"} />
 
-                <AnchorTagContainer AnchorTitle={"Mobile app"} />
+                <AnchorTagContainer AnchorTitle={"Mobile app"}  target_link={"/features/mobile-app"} />
 
             </div>
 
@@ -29,13 +29,13 @@ const FeatureNavbar = () => {
             
                 <h1 className='text-gray-400 font-bold text-xs mb-5'>CUSTOMER SERVICE</h1>
 
-                <AnchorTagContainer AnchorTitle={"Online Booking"} />
+                <AnchorTagContainer AnchorTitle={"Online Booking"} target_link={"/features/online-booking"} />
 
-                <AnchorTagContainer AnchorTitle={"Client hub"} />
+                <AnchorTagContainer AnchorTitle={"Client hub"} target_link={"/features/client-hub"} />
+                
+                <AnchorTagContainer AnchorTitle={"Customer communications"} target_link={"/features/customer-communications"} />
 
-                <AnchorTagContainer AnchorTitle={"Customer communications"} />
-
-                <AnchorTagContainer AnchorTitle={"Job forms"} />
+                <AnchorTagContainer AnchorTitle={"Job forms"} target_link={"/features/job-forms"} />
 
             </div>
 
