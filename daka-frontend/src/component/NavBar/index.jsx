@@ -17,16 +17,10 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
-import { makeStyles } from '@mui/styles';
 
-const useStyles = makeStyles((theme) => ({
-  summaryWithoutBorder: {
-    boxShadow : 'none' , position : 'static'
-  },
-}));
 
 const NavBar = () => {
-  const classes = useStyles();
+  
   const [isHovered, setIsHovered] = useState(false);
   const [ hoverContent , setHoverContent ] = useState(1);
 
