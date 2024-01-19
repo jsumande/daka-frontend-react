@@ -17,7 +17,7 @@ const CustomerExpects = () => {
                 <div className="flex flex-col ml-10 gap-2">
 
                     <h1 className="text-4xl font-extrabold text-[#012939] mb-2 w-10/12">CUSTOMERS EXPECT CONVENIENCE</h1>
-
+ 
                     <div className="flex flex-col gap-5">
                         <p className="text-[#012939] font-md text-lg w-10/12">Many home service businesses are behind in meeting customer expectations, and for good reason. Thanks to a world full of streaming services and same-day deliveries, customer expectations for speed and quality of service are higher than ever. And today’s customers aren’t just comparing you to your peers—they’re measuring you against the best in the world.</p>
                         <p className="text-[#012939] font-md text-lg w-10/12">But here’s the good news: when you give customers a convenient experience from start to finish, it pays—literally.</p>

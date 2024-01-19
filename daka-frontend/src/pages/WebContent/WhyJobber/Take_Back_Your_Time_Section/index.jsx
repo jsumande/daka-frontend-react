@@ -17,7 +17,7 @@ const index = () => {
             <h1 className="text-5xl font-extrabold text-[#012939] mb-2">Take back your time</h1>
         </CenterContentColumn>
 
-
+ 
         <CenterContentColumn classContent="gap-0.5">
             <p className="text-[#012939] text-xl">Where can you find the time to stay on top of all the new requests?n</p>
             <p className="text-[#012939] text-xl">Automate some of that repetitive office admin work and you’ll get</p>

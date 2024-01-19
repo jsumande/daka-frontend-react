@@ -90,7 +90,7 @@ const index = () => {
                     
                 </div>
 
-            </div>
+            </div> 
 
             <div className="w-full flex flex-row justify-evenly">
 

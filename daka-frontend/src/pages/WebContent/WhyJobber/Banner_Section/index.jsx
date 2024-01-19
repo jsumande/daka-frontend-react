@@ -16,7 +16,7 @@ const index = () => {
                     </CenterContentColumn>
 
                     <p className="text-white text-xl w-7/12 text-center">From the customer’s request to the moment you’re paid, Jobber brings everything together to make the entire job and customer experience seamless.</p>
-                    
+                     
                     <div className="flex flex-col gap-2">
 
                         <div className="px-10 py-5 bg-[#7db00e] flex items-center justify-center cursor-pointer">

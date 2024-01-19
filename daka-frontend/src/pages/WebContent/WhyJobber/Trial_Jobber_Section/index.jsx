@@ -16,7 +16,7 @@ const TrialJobber = () => {
                 <h1 className="font-bold text-xl text-white">START FREE TRIAL</h1>
             </div>
 
-        </div>
+        </div> 
     </CenterItems>
   )
 }

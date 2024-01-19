@@ -28,7 +28,7 @@ const HaveCustomerInfo = () => {
                 <div className="h-[54px] px-8 bg-[#7db00e] flex items-center justify-center cursor-pointer">
                     <h1 className="font-bold text-md text-white">LEARN MORE</h1>
                 </div>
-
+ 
             </CenterContentColumn>
 
             <CardDisplayRow>

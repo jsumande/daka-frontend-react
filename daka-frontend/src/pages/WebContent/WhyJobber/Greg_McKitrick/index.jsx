@@ -21,7 +21,7 @@ const index = () => {
                         <h1 className='text-white font-bold text-2xl' >Greg McKitrick</h1>
                         <p className="text-white text-lg">All-Pro Tree Care</p>
                     </div>
-
+ 
 
                 </div>
 

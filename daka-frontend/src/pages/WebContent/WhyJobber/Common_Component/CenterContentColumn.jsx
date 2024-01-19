@@ -6,3 +6,4 @@ const CenterContentColumn = ({ children , classContent }) => {
  }
 
 export default CenterContentColumn
+ 

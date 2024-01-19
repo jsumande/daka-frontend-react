@@ -20,7 +20,7 @@ const BusinessWithOutLimit = () => {
             <div className="h-[64px] px-16 bg-[#012939] flex items-center justify-center">
                 <h1 className="font-bold text-xl text-white">START FREE TRIAL</h1>
             </div>
-
+ 
         </div>
     </CenterItems>
   )
