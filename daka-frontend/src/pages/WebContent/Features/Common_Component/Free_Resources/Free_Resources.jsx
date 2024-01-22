@@ -5,7 +5,7 @@ import { IoMdArrowRoundForward } from "react-icons/io";
 
 import { FeaturesDefaultImage } from "../../../../../contants/imageContants"
 
-const FreeResources = () => {
+const FreeResources = ({ content }) => {
   return (
     <CenterItems biggerScreen={true}>
         <div className="w-full py-10 flex flex-col gap-10">
@@ -34,30 +34,32 @@ const FreeResources = () => {
                     </div>
 
                 </div>
-   
-                <div className="w-full flex flex-col gap-6 bg-[#f1f0eb] rounded relative">
 
-                    <div className="w-full h-[177px]">
-                        <img src={FeaturesDefaultImage.FEATURESSTAYCOMPETITIVE} className="rounded-tl rounded-tr w-full h-full" />
+                { content?.free_resources?.map(  (item , key ) => (
+                    <div key={key} className="w-full flex flex-col gap-6 bg-[#f1f0eb] rounded relative">
+
+                        <div className="w-full h-[177px]">
+                            <img src={FeaturesDefaultImage.FEATURESSTAYCOMPETITIVE} className="rounded-tl rounded-tr w-full h-full" />
+                        </div>
+
+                        <div className="flex flex-col px-6 gap-2">
+                            <h1 className="text-[#012939] pr-5 font-extrabold text-2xl">{item?.title}</h1>
+                            <p className="text-[#012939] font-bold text-sm">{item?.minutes}</p>
+                        </div>
+
+                        <div className="flex flex-col px-6">
+                            <p className="text-[#012939] font-md text-md">{item?.details}</p>
+                        </div>
+
+                        <div className="flex flex-row items-center cursor-pointer px-6 absolute bottom-7">
+                            <h1 className='text-[#012939] pr-5 font-bold text-lg' >Read Now</h1>
+                            <span className="text-[#c1ff72] text-2xl mt-1"><IoMdArrowRoundForward /></span>
+                        </div>
+
                     </div>
-
-                    <div className="flex flex-col px-6 gap-2">
-                        <h1 className="text-[#012939] pr-5 font-extrabold text-2xl">5 Ways to Stay Competitive on Customer Service</h1>
-                        <p className="text-[#012939] font-bold text-sm">7 MIN READ</p>
-                    </div>
-
-                    <div className="flex flex-col px-6">
-                        <p className="text-[#012939] font-md text-md">Use these proven tips and tools to create a memorable customer experience.</p>
-                    </div>
-
-                    <div className="flex flex-row items-center cursor-pointer px-6 absolute bottom-7">
-                        <h1 className='text-[#012939] pr-5 font-bold text-lg' >Read Now</h1>
-                        <span className="text-[#c1ff72] text-2xl mt-1"><IoMdArrowRoundForward /></span>
-                    </div>
-
-                </div>
-                             
-                <div className="w-full flex flex-col gap-6 bg-[#f1f0eb] rounded relative">
+                )) } 
+         
+                {/* <div className="w-full flex flex-col gap-6 bg-[#f1f0eb] rounded relative">
 
                     <div className="w-full h-[177px]">
                         <img src={FeaturesDefaultImage.FEATURESFREEAPPOINTMENT} className="rounded-tl rounded-tr w-full h-full" />
@@ -99,7 +101,7 @@ const FreeResources = () => {
                         <span className="text-[#c1ff72] text-2xl mt-1"><IoMdArrowRoundForward /></span>
                     </div>
 
-                </div>
+                </div> */}
 
             </div>
 

@@ -4,7 +4,8 @@ import { IoMdArrowRoundForward } from "react-icons/io";
 
 import { FeaturesDefaultImage } from "../../../../../contants/imageContants"
 
-const IntegrationsWork = () => {
+const IntegrationsWork = ({ content = null }) => {
+
   return (
     <div className="w-full bg-[#f3f3f3] flex flex-col items-center">
     <CenterItems biggerScreen={true}>
@@ -12,10 +13,22 @@ const IntegrationsWork = () => {
     <div className="w-full py-10 flex flex-col gap-10">
             
             <div className="w-full flex flex-col items-center gap-4">
-                <h1 className="text-5xl font-extrabold text-[#012939] text-center">What is field service CRM <br/>software?</h1>
+                <h1 className="text-5xl font-extrabold text-[#012939] text-center w-7/12">{content?.contentForBusinessCustomer?.title}</h1>
                 
-                <p className="text-[#012939] font-md text-md text-center">Field service CRM software like Jobber helps you keep a clean and organized client history so that you <br/> never lose touch with the core of your business—your clients.</p>
-                <p className="text-[#012939] font-md text-md text-center">With Jobber, your team has access to important client details from the field without phone calls back to the <br/> office. That helps you provide a professional, reliable experience to every customer.</p>
+                <p className="text-[#012939] font-md text-md text-start w-7/12">{content?.contentForBusinessCustomer?.subheaderOne}</p>
+                <p className="text-[#012939] font-md text-md text-start w-7/12">{content?.contentForBusinessCustomer?.subheaderTwo}</p>
+
+                { content?.contentForBusinessCustomer?.service_work ? 
+                    <ul className="list-disc flex flex-col w-7/12 items-start gap-2">
+
+                    <p className="font-md text-md text-[#012939]">{ content?.contentForBusinessCustomer?.service_work?.title}</p>
+                    <br/>
+
+                    { content?.contentForBusinessCustomer?.service_work?.bullets.map(  (item , key ) => (
+                        <li key={key} className="font-bold text-md text-[#012939]">{item}</li>
+                    )) } 
+                    </ul> : null
+                }
             
             </div>
 
@@ -30,9 +43,9 @@ const IntegrationsWork = () => {
                     <div className="w-full px-10 py-4 flex flex-col">
 
                         <ul className="list-disc flex flex-col gap-5">
-                            <li className="font-md text-md text-[#012939]">Let team members self-serve the information needed to get the job done right</li>
-                            <li className="font-md text-md text-[#012939]">Track the client details that matter most to your business</li>
-                            <li className="font-md text-md text-[#012939]">Save time and headaches with client profiles that are always up-to-date with work and communication history</li>
+                            { content?.contentForBusinessCustomer?.business_work.map(  (item , key ) => (
+                                <li key={key} className="font-md text-md text-[#012939]">{item}</li>
+                            )) }
                         </ul>
 
                     </div>
@@ -48,9 +61,9 @@ const IntegrationsWork = () => {
                     <div className="w-full px-10 py-4 flex flex-col">
 
                         <ul className="list-disc flex flex-col gap-5">
-                            <li className="font-md text-md text-[#012939]">Get a personalized experience and consistent customer service</li>
-                            <li className="font-md text-md text-[#012939]">Avoid the hassle of providing contact details more than once</li>
-                            <li className="font-md text-md text-[#012939]">Trust that personal client information is only accessible to team members who need it</li>
+                            { content?.contentForBusinessCustomer?.customer_work.map(  (item , key ) => (
+                                <li key={key} className="font-md text-md text-[#012939]">{item}</li>
+                            )) }
                         </ul>
 
                     </div>
