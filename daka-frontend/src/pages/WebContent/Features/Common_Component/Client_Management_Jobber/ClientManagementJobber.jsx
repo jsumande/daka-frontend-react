@@ -15,7 +15,7 @@ const ClientManagementJobber = ({ content }) => {
 
             <div className="w-full flex flex-col items-center gap-4">
 
-                <h1 className="text-5xl font-extrabold text-[#012939] text-center">{content?.title}</h1>
+                <h1 className="text-5xl font-extrabold text-[#012939] text-center w-8/12">{content?.title}</h1>
                 <p className="text-[#012939] font-md text-md text-center">{content?.subHeader}</p>
 
             </div>
@@ -49,7 +49,7 @@ const ClientManagementJobber = ({ content }) => {
 
                             <div className="flex flex-col gap-2">
                                 <h1 className="font-bold text-lg text-[#012939]">{ item?.subTitle }</h1>
-                                <h1 className="font-extrabold text-5xl text-[#012939] w-10/12">{ item?.title }</h1>
+                                <h1 className="font-extrabold text-5xl text-[#012939] w-11/12">{ item?.title }</h1>
                             </div>
                             
                             <p className="text-[#012939] text-md font-md w-8/12">{ item?.contentTitle }</p>
@@ -81,7 +81,7 @@ const ClientManagementJobber = ({ content }) => {
         
                             <div className="flex flex-col gap-2">
                                 <h1 className="font-bold text-lg text-[#012939]">{ item?.subTitle }</h1>
-                                <h1 className="font-extrabold text-5xl text-[#012939] w-10/12">{ item?.title }</h1>
+                                <h1 className="font-extrabold text-5xl text-[#012939] w-11/12">{ item?.title }</h1>
                             </div>
                             
                             <p className="text-[#012939] text-md font-md w-8/12">{ item?.contentTitle }</p>
