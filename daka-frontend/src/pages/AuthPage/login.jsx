@@ -36,9 +36,9 @@ const LoginPage = () => {
 
                         <div className="flex flex-col gap-2">
 
-                            <div className="px-10 py-2 bg-[#7db00e] flex items-center justify-center cursor-pointer">
+                            <a href="/dashboard/home" className="px-10 py-2 bg-[#7db00e] flex items-center justify-center cursor-pointer">
                                 <h1 className="font-bold text-lg text-white">Log in</h1>
-                            </div>
+                            </a>
 
                         </div>
 

@@ -1,5 +1,17 @@
 
 export const pageRoutes = {
+
+    DASHHOME : 'home',
+    DASHSCHEDULE : 'schedule',
+    DASHCLIENT : 'clients',
+    DASHREQUESTS : 'requests',
+    DASHQUOTES : 'quotes',
+    DASHJOBS : 'jobs',
+    DASHINVOICES : 'invoices',
+    DASHREPORTS : 'reports',
+    DASHEXPENSES : 'expenses',
+    DASHTIMESHEETS : 'timesheets',
+    DASHAPPS : 'apps',
     
     LOGINPAGE : 'login',
     REGISTRATIONPAGE : 'registration',

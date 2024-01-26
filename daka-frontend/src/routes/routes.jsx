@@ -2,6 +2,7 @@ import { pageRoutes } from "../contants";
 
 /* Landing Page */
 import Container from "../component/Container";
+import DashboardContainer from "../component/DashboardContainer";
 import LandingPage from "../pages/WebContent/LandingPage/LandingPage";
 import WhyJobber from "../pages/WebContent/WhyJobber/WhyJobber";
 
@@ -21,10 +22,38 @@ import ClientHub from "../pages/WebContent/Features/Client_Hub";
 import CustomerCommunications from "../pages/WebContent/Features/Customer_Communications";
 import JobForms from "../pages/WebContent/Features/Job_Forms";
 
+import Home from "../pages/App/Home/Home";
+import Schedule from "../pages/App/Schedule/Schedule";
+import Clients from "../pages/App/Clients/Clients";
+import Request from "../pages/App/Request/Request";
+import Quotes from "../pages/App/Quotes/Quotes";
+import Jobs from "../pages/App/Jobs/Jobs";
+import Invoices from "../pages/App/Invoices/Invoices";
+import Reports from "../pages/App/Reports/Reports";
+import Expenses from "../pages/App/Expenses/Expenses";
+import Timesheets from "../pages/App/Timesheets/Timesheets";
+import Apps from "../pages/App/Apps/Apps";
+
 let routes = [
 
-
-
+  {
+    path: "dashboard",
+    element: <DashboardContainer/>,
+    children: [
+      { path: pageRoutes.DASHHOME, element: <Home /> },
+      { path: pageRoutes.DASHSCHEDULE, element: <Schedule /> },
+      { path: pageRoutes.DASHCLIENT, element: <Clients /> },
+      { path: pageRoutes.DASHREQUESTS, element: <Request /> },
+      { path: pageRoutes.DASHQUOTES, element: <Quotes /> },
+      { path: pageRoutes.DASHJOBS, element: <Jobs /> },
+      { path: pageRoutes.DASHINVOICES, element: <Invoices /> },
+      { path: pageRoutes.DASHREPORTS, element: <Reports /> },
+      { path: pageRoutes.DASHEXPENSES, element: <Expenses /> },
+      { path: pageRoutes.DASHTIMESHEETS, element: <Timesheets /> },
+      { path: pageRoutes.DASHAPPS, element: <Apps /> },
+    ],
+  },
+  
   {
     path: "auth",
     children: [
@@ -56,6 +85,7 @@ let routes = [
       { path: pageRoutes.FEATURE_JOB_FORMS, element: <JobForms /> },
     ],
   },
+
 
 ]
   
